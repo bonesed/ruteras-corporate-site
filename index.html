@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welteras - バーチャルな理想からリアルへ</title>
+    <meta name="description" content="ウェルテラスアプリで、なりたい自分をアバターで描き、AIと仲間と一緒に現実で叶えましょう。">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- ヘッダー -->
+    <header class="header">
+        <div class="container">
+            <div class="flex justify-between items-center">
+
+                <nav class="nav">
+                    <ul class="nav-links">
+                        <li><a href="#features">機能</a></li>
+                        <li><a href="#ai">AIコーチ</a></li>
+                        <li><a href="#avatar">アバター</a></li>
+                        <li><a href="#faq">よくある質問</a></li>
+                    </ul>
+                </nav>
+                <a href="#download" class="btn btn-nav">いますぐ始める</a>
+                <button class="menu-toggle" aria-label="メニュー">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- ヒーローセクション -->
+    <section class="hero" id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">バーチャルな理想からリアルへ</h1>
+                    <p class="hero-subtitle">"なりたい自分"をアバターで描き、AIと仲間と一緒に現実で叶える。</p>
+                    <div class="hero-cta">
+                        <a href="#download" class="btn btn-large">いますぐ始める</a>
+                        <a href="#avatar-demo" class="btn btn-secondary btn-large">アバター作成を体験する</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="avatar-animation">
+                        <img src="images/main1.png" alt="アバター変化アニメーション" class="avatar-img">
+                        <div class="avatar-glow"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-wave">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 120">
+                <path fill="#ffffff" fill-opacity="1" d="M0,64L80,69.3C160,75,320,85,480,80C640,75,800,53,960,48C1120,43,1280,53,1360,58.7L1440,64L1440,120L1360,120C1280,120,1120,120,960,120C800,120,640,120,480,120C320,120,160,120,80,120L0,120Z"></path>
+            </svg>
+        </div>
+    </section>
+
+    <!-- 機能紹介セクション -->
+    <section class="features" id="features">
+        <div class="container">
+            <h2 class="section-title">日々の小さな一歩が、未来の大きな変化に。</h2>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-user-edit"></i>
+                    </div>
+                    <h3 class="feature-title">アバターでビジュアル化</h3>
+                    <p class="feature-problem">どんな自分になりたいか見えない…</p>
+                    <p class="feature-solution">なりたい自分を目で見て、日々の変化を感じられる</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3 class="feature-title">AIパーソナルコーチ</h3>
+                    <p class="feature-problem">何をすればいいか迷う…</p>
+                    <p class="feature-solution">あなた専用のプランを提案。24時間いつでも相談OK</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3 class="feature-title">仲間とつながるコミュニティ</h3>
+                    <p class="feature-problem">一人だと続かない…</p>
+                    <p class="feature-solution">同じ目標を持つ仲間と励まし合える継続サポート</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-dumbbell"></i>
+                    </div>
+                    <h3 class="feature-title">プロトレーナーとのマッチング</h3>
+                    <p class="feature-problem">本当に合っているか不安…</p>
+                    <p class="feature-solution">AIが分析し、あなたに最適なプロをレコメンド</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-gamepad"></i>
+                    </div>
+                    <h3 class="feature-title">楽しく習慣化</h3>
+                    <p class="feature-problem">続けるのがツラい…</p>
+                    <p class="feature-solution">ゲーム感覚でミッションをクリアして成長を実感</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3 class="feature-title">パーソナライズされた健康管理</h3>
+                    <p class="feature-problem">自分に合った方法がわからない…</p>
+                    <p class="feature-solution">AIがあなたの生活習慣と体質を学習し最適化</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ビジュアルストーリーセクション -->
+    <section class="visual-story" id="story">
+        <div class="container">
+            <h2 class="section-title">明日の自分が今日の選択に感謝する</h2>
+            <p class="section-subtitle">アバターの成長 = あなたの成長物語</p>
+
+            <div class="story-slider">
+                <div class="story-slide active">
+                    <div class="story-content">
+                        <div class="story-image">
+                            <img src="images/1.png" alt="在宅ワーカー向けシナリオ" class="story-img">
+                        </div>
+                        <div class="story-text">
+                            <h3 class="story-title">在宅ワーカー向け</h3>
+                            <p class="story-description">デスクワークの悪い姿勢・運動不足 → AIが提案する隙間時間エクササイズで理想の自分へ</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="story-slide">
+                    <div class="story-content">
+                        <div class="story-image">
+                            <img src="images/2.png" alt="忙しいビジネスパーソン向けシナリオ" class="story-img">
+                        </div>
+                        <div class="story-text">
+                            <h3 class="story-title">忙しいビジネスパーソン向け</h3>
+                            <p class="story-description">不規則な生活習慣・睡眠不足 → AIの生活リズム提案で健康的な毎日を実現</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="story-slide">
+                    <div class="story-content">
+                        <div class="story-image">
+                            <img src="images/3.png" alt="健康志向の主婦/主夫向けシナリオ" class="story-img">
+                        </div>
+                        <div class="story-text">
+                            <h3 class="story-title">健康志向の主婦/主夫向け</h3>
+                            <p class="story-description">家事育児の合間に自分時間が取れない → スキマ時間活用術で理想の自分に近づく</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="story-slide">
+                    <div class="story-content">
+                        <div class="story-image">
+                            <img src="images/4.png" alt="フィットネス初心者向けシナリオ" class="story-img">
+                        </div>
+                        <div class="story-text">
+                            <h3 class="story-title">フィットネス初心者向け</h3>
+                            <p class="story-description">ジム三日坊主を繰り返す → アバター成長システムと仲間との繋がりで継続できる仕組み</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="story-nav">
+                <button class="story-nav-btn prev" aria-label="前へ"><i class="fas fa-chevron-left"></i></button>
+                <div class="story-dots">
+                    <button class="story-dot active" data-index="0" aria-label="スライド1"></button>
+                    <button class="story-dot" data-index="1" aria-label="スライド2"></button>
+                    <button class="story-dot" data-index="2" aria-label="スライド3"></button>
+                    <button class="story-dot" data-index="3" aria-label="スライド4"></button>
+                </div>
+                <button class="story-nav-btn next" aria-label="次へ"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- AIチャットUIセクション -->
+    <section class="ai-chat" id="ai">
+        <div class="container">
+            <h2 class="section-title">24時間365日、あなただけのパーソナルコーチ</h2>
+            <p class="section-subtitle">AIが学習するほど、あなたのことを理解してサポート</p>
+
+            <div class="chat-showcase">
+                <div class="phone-mockup">
+                    <div class="phone-frame">
+                        <div class="phone-screen">
+                            <div class="chat-header">
+                                <div class="chat-avatar">
+                                    <img src="/api/placeholder/40/40" alt="AIコーチアバター" class="chat-avatar-img">
+                                </div>
+                                <div class="chat-name">AIコーチ</div>
+                            </div>
+                            <div class="chat-messages">
+                                <div class="chat-time">朝 7:30</div>
+                                <div class="message user-message">
+                                    今日は少し時間がないけどおすすめの食材はありますか？できれば昨日タンパク質が少なくて
+                                </div>
+                                <div class="message ai-message">
+                                    了解です。では朝食に含めたいおすすめの栄養素をお伝えしますね。タンパク質をしっかり取れる食材をご案内します...
+                                </div>
+                                <div class="chat-time">昼 12:30</div>
+                                <div class="message ai-message">
+                                    デスクワーク3時間経過しました。目の疲れを感じていませんか？
+                                </div>
+                                <div class="message user-message">
+                                    少し肩こりも感じる
+                                </div>
+                                <div class="message ai-message">
+                                    肩こり解消ストレッチをご提案します。また、今日の14時から17時は集中力が高まる時間帯です。大事な作業があればおすすめします
+                                </div>
+                                <div class="chat-time">夜 21:00</div>
+                                <div class="message ai-message">
+                                    今日は8,732歩歩きました！目標の82%達成です
+                                </div>
+                                <div class="message user-message">
+                                    思ったより歩けた！
+                                </div>
+                                <div class="message ai-message">
+                                    素晴らしいです！アバターの活力指数が上がりました。質の良い睡眠のために21:30頃からの就寝準備をおすすめします
+                                </div>
+                            </div>
+                            <div class="chat-input">
+                                <input type="text" placeholder="メッセージを入力" disabled>
+                                <button class="chat-send-btn"><i class="fas fa-paper-plane"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="chat-features">
+                    <div class="chat-feature">
+                        <div class="chat-feature-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <h3 class="chat-feature-title">24時間対応</h3>
+                        <p class="chat-feature-desc">いつでもあなたの相談に応じて、最適なアドバイスを提供します</p>
+                    </div>
+                    <div class="chat-feature">
+                        <div class="chat-feature-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <h3 class="chat-feature-title">学習する知能</h3>
+                        <p class="chat-feature-desc">使えば使うほど、あなたの好みやライフスタイルを理解します</p>
+                    </div>
+                    <div class="chat-feature">
+                        <div class="chat-feature-icon">
+                            <i class="fas fa-calendar-alt"></i>
+                        </div>
+                        <h3 class="chat-feature-title">スケジュール管理</h3>
+                        <p class="chat-feature-desc">あなたの予定に合わせて健康習慣を自然に組み込みます</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- コミュニティセクション -->
+    <section class="community" id="community">
+        <div class="container">
+            <h2 class="section-title">一人じゃない。みんなで育つ、みんなで叶える。</h2>
+            <p class="section-subtitle">オンラインでつながり、時にはリアルで刺激し合う。</p>
+
+            <div class="community-features">
+                <div class="community-feature">
+                    <div class="community-icon">
+                        <i class="fas fa-bullseye"></i>
+                    </div>
+                    <h3 class="community-title">目標別グループ</h3>
+                    <p class="community-desc">同じ目標を持つ仲間と進捗を共有</p>
+                </div>
+                
+                <div class="community-feature">
+                    <div class="community-icon">
+                        <i class="fas fa-laptop"></i>
+                    </div>
+                    <h3 class="community-title">オンラインイベント</h3>
+                    <p class="community-desc">自宅からでも参加できるライブセッション(2026年以降リリース)</p>
+                </div>
+                
+                <div class="community-feature">
+                    <div class="community-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3 class="community-title">チャレンジ企画</h3>
+                    <p class="community-desc">期間限定の目標達成コンテスト</p>
+                </div>
+                
+                <div class="community-feature">
+                    <div class="community-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <h3 class="community-title">知識シェア</h3>
+                    <p class="community-desc">体験談や成功のコツを共有する掲示板</p>
+                </div>
+            </div>
+
+            <div class="community-events">
+                <h3 class="events-title">開催予定のイベント(2026年以降リリース)</h3>
+                <div class="events-list">
+                    <div class="event-card">
+                        <div class="event-date">毎月第1日曜日</div>
+                        <h4 class="event-title">オンラインヨガセッション</h4>
+                        <p class="event-desc">初心者から上級者まで参加できるオンラインヨガクラス</p>
+                    </div>
+                    
+                    <div class="event-card">
+                        <div class="event-date">3ヶ月に1回</div>
+                        <h4 class="event-title">季節ごとのチャレンジマラソン</h4>
+                        <p class="event-desc">それぞれの目標に向かって一斉にスタートする大型イベント</p>
+                    </div>
+                    
+                    <div class="event-card">
+                        <div class="event-date">毎週水曜夜</div>
+                        <h4 class="event-title">食事記録共有会</h4>
+                        <p class="event-desc">みんなの健康食事レシピをシェアするオンライン会</p>
+                    </div>
+                    
+                    <div class="event-card">
+                        <div class="event-date">毎月第3土曜日</div>
+                        <h4 class="event-title">地域別ウォーキング会</h4>
+                        <p class="event-desc">同じエリアのメンバーと実際に会って歩くリアルイベント</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- アバター＆ショップセクション -->
+    <section class="avatar-shop" id="avatar">
+        <div class="container">
+            <h2 class="section-title">成長が見える。楽しさが続く。</h2>
+            <p class="section-subtitle">努力が報われる、目に見える形で。</p>
+
+            <div class="avatar-system">
+                <div class="avatar-cycle">
+                    <div class="cycle-item">
+                        <div class="cycle-icon">
+                            <i class="fas fa-flag"></i>
+                        </div>
+                        <p class="cycle-text">目標設定</p>
+                    </div>
+                    <div class="cycle-arrow">→</div>
+                    <div class="cycle-item">
+                        <div class="cycle-icon">
+                            <i class="fas fa-walking"></i>
+                        </div>
+                        <p class="cycle-text">行動</p>
+                    </div>
+                    <div class="cycle-arrow">→</div>
+                    <div class="cycle-item">
+                        <div class="cycle-icon">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <p class="cycle-text">データ蓄積</p>
+                    </div>
+                    <div class="cycle-arrow">→</div>
+                    <div class="cycle-item">
+                        <div class="cycle-icon">
+                            <i class="fas fa-user-astronaut"></i>
+                        </div>
+                        <p class="cycle-text">アバター成長</p>
+                    </div>
+                    <div class="cycle-arrow">→</div>
+                    <div class="cycle-item">
+                        <div class="cycle-icon">
+                            <i class="fas fa-flag-checkered"></i>
+                        </div>
+                        <p class="cycle-text">新たな目標</p>
+                    </div>
+                </div>
+
+    
+
+            <div class="shop-preview">
+                <h3 class="shop-title">ショップ機能(2026年以降)</h3>
+                <div class="shop-features">
+                    <div class="shop-feature">
+                        <div class="shop-icon">
+                            <i class="fas fa-coins"></i>
+                        </div>
+                        <h4 class="shop-feature-title">ポイント獲得システム</h4>
+                        <p class="shop-feature-desc">日々の行動で貯まるウェルポイントで、アバターや実生活で使えるアイテムをゲット</p>
+                    </div>
+                    
+                    <div class="shop-feature">
+                        <div class="shop-icon">
+                            <i class="fas fa-tshirt"></i>
+                        </div>
+                        <h4 class="shop-feature-title">着せ替えアイテム</h4>
+                        <p class="shop-feature-desc">健康的な肌色へ、理想の筋肉ライン、姿勢改善エフェクトなど</p>
+                    </div>
+                    
+                    <div class="shop-feature">
+                        <div class="shop-icon">
+                            <i class="fas fa-ticket-alt"></i>
+                        </div>
+                        <h4 class="shop-feature-title">実生活連動アイテム</h4>
+                        <p class="shop-feature-desc">パートナー企業のヘルシーメニュー割引券、フィットネスクラブ体験チケットなど</p>
+                    </div>
+                </div>
+                <div class="shop-items-preview">
+                    <img src="/api/placeholder/800/300" alt="ショップアイテムプレビュー" class="shop-preview-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 成功ストーリーセクション -->
+    <section class="success-stories" id="stories">
+        <div class="container">
+            <h2 class="section-title">あなたの"なりたい"を現実にする物語</h2>
+                
+                <div class="story-card">
+                    <div class="story-image">
+                        <img src="images/5.png" alt="デスクワークでも姿勢美人" class="story-card-img">
+                    </div>
+                    <div class="story-card-content">
+                        <h3 class="story-card-title">デスクワークでも姿勢美人</h3>
+                        <p class="story-card-desc">デスクワークで姿勢が悪くなりがちなデザイナーが、AIリマインダーとミニエクササイズで姿勢を改善し、肩こりも解消していくストーリー。</p>
+                    </div>
+                </div>
+                
+                <div class="story-card">
+                    <div class="story-image">
+                        <img src="images/6.png" alt="忙しくても自分時間を創出" class="story-card-img">
+                    </div>
+                    <div class="story-card-content">
+                        <h3 class="story-card-title">忙しくても自分時間を創出</h3>
+                        <p class="story-card-desc">家事育児に追われる毎日から、AIの提案する「隙間時間の活用法」で自分のための時間を見つけ、心身ともに充実していく様子。</p>
+                    </div>
+                </div>
+                
+                <div class="story-card">
+                    <div class="story-image">
+                        <img src="images/7.png" alt="三日坊主を卒業する喜び" class="story-card-img">
+                    </div>
+                    <div class="story-card-content">
+                        <h3 class="story-card-title">三日坊主を卒業する喜び</h3>
+                        <p class="story-card-desc">何度も挫折を繰り返してきた人が、アバター育成の楽しさとコミュニティの支えで継続できるようになる成長ストーリー。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ セクション -->
+    <section class="faq" id="faq">
+        <div class="container">
+            <h2 class="section-title">よくある質問</h2>
+            
+            <div class="faq-list">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>本当に続けられますか？</h3>
+                        <span class="faq-icon"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>AIコーチと仲間の存在で、続けやすい仕組みを多数ご用意。「続かない」を「続く」に変えるための様々な工夫があります。</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>忙しくても大丈夫？</h3>
+                        <span class="faq-icon"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>あなたのスケジュールに合わせて最適な提案をします。1日5分からでもスタート可能です。</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>ジムや特別な器具は必要？</h3>
+                        <span class="faq-icon"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>自宅で手軽にできるエクササイズを多数ご用意。特別な道具は必要ありません。</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>食事制限はきびしい？</h3>
+                        <span class="faq-icon"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>極端な制限はありません。あなたの好みや生活習慣を考慮した、無理のない提案をします。</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>どんなデバイスで使える？</h3>
+                        <span class="faq-icon"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>iOS・Android両方対応。スマートウォッチとの連携も可能です。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 最後のCTAセクション -->
+    <section class="final-cta" id="download">
+        <div class="container">
+            <h2 class="section-title">さあ、理想の自分に会いに行こう</h2>
+            <p class="section-subtitle">アバターを育てて、現実の自分も変えていく新しい体験</p>
+            
+            <div class="cta-container">
+                <a href="#" class="btn btn-large btn-cta">いますぐ始める</a>
+                <a href="#" class="btn btn-large btn-secondary">アプリをダウンロード</a>
+            </div>
+            
+            <div class="trust-points">
+                <div class="trust-point">
+                    <div class="trust-icon">
+                        <i class="fas fa-user-plus"></i>
+                    </div>
+                    <p class="trust-text">簡単登録<br>メールアドレスだけで30秒で始められます</p>
+                </div>
+                
+                <div class="trust-point">
+                    <div class="trust-icon">
+                        <i class="fas fa-tags"></i>
+                    </div>
+                    <p class="trust-text">無料スタート<br>基本機能はすべて無料でご利用いただけます</p>
+                </div>
+                
+                <div class="trust-point">
+                    <div class="trust-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <p class="trust-text">プライバシー<br>あなたの健康データは厳重に保護されます</p>
+                </div>
+            </div>
+            
+            <div class="final-message">
+                <p>今日始めれば、未来の自分があなたを待っています。<br>
+                小さな一歩を重ねて、大きな変化を実感しましょう。<br>
+                理想のあなたに、今日から会いに行きませんか？</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- フッター -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="/api/placeholder/150/40" alt="Wellterasu" class="footer-logo-img">
+                    <p class="footer-tagline">バーチャルな理想からリアルへ</p>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-links-col">
+                        <h4 class="footer-links-title">アプリについて</h4>
+                        <ul class="footer-links-list">
+                            <li><a href="#features">機能紹介</a></li>
+                            <li><a href="#ai">AIコーチ</a></li>
+                            <li><a href="#community">コミュニティ</a></li>
+                            <li><a href="#avatar">アバターシステム</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-links-col">
+                        <h4 class="footer-links-title">サポート</h4>
+                        <ul class="footer-links-list">
+                            <li><a href="#faq">よくある質問</a></li>
+                            <li><a href="#">お問い合わせ</a></li>
+                            <li><a href="#">ヘルプセンター</a></li>
+                            <li><a href="#">プライバシーポリシー</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-links-col">
+                        <h4 class="footer-links-title">ダウンロード</h4>
+                        <ul class="footer-links-list">
+                            <li><a href="#">App Store</a></li>
+                            <li><a href="#">Google Play</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-links-col">
+                        <h4 class="footer-links-title">フォローする</h4>
+                        <div class="social-links">
+                            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p class="copyright">© 2025 Wellterasu. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
